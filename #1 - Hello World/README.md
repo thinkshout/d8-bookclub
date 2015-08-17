@@ -34,13 +34,12 @@
 - Discovered the configuration is not reusable.
 - Discovered that there's no obvious way to deploy UUIDs or create new UUIDs.
 - Also discovered that configuration is easily broken which gives unrelated PHP errors.
-- Also discovered that Drupal 8 constantly unsets owner permissions on sites/default
 
 ## Gabe
 - Did not follow a template, tried to build a “minimal” module from scratch
 - Module files are optional, not officially
 
 ## General Issues
-- Permissions issue with settings.php. Drupal keeps taking away the owners write permission.
+- Permissions issue with sites/default and settings.php. Drupal keeps taking away the owners write permission.
 - PHP max nesting level is too low
 - Trusted host settings
