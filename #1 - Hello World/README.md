@@ -29,7 +29,12 @@
 - Felt comfortable with MVC route
 
 ## Greg
-- Enabled configuration in files
+- Enabled configuration in files.
+- Discovered that blocks are not deployable with CMI.
+- Discovered the configuration is not reusable.
+- Discovered that there's no obvious way to deploy UUIDs or create new UUIDs.
+- Also discovered that configuration is easily broken which gives unrelated PHP errors.
+- Also discovered that Drupal 8 constantly unsets owner permissions on sites/default
 
 ## Gabe
 - Did not follow a template, tried to build a “minimal” module from scratch
