@@ -1,0 +1,14 @@
+{
+  "name": "drupal/blog",
+  "type": "drupal-module",
+  "description": "Blog module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/blog",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/blog",
+    "source": "http://cgit.drupalcode.org/blog"
+  },
+  "require": { }
+}
