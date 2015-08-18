@@ -5,7 +5,6 @@ Create a content type called with blog with (at least) the following fields:
 - Body
 - Author
 - Created
-- Updates
 
 Create a teaser view of the blog content type.
 
