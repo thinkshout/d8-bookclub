@@ -1,0 +1,5 @@
+{
+    "name": "drupal/d8demo_hello_world",
+    "description": "This the composer.json for Joe's Hello World module.",
+    "type": "drupal-module"
+}
