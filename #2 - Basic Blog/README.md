@@ -4,7 +4,7 @@ Create a content type called with blog with (at least) the following fields:
 - Title
 - Body
 - Author
-- Created
+- Updated (timestamp)
 
 Create a teaser view of the blog content type.
 
