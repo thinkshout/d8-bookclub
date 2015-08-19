@@ -1,0 +1,31 @@
+Drupal 8 assignment 1: blocks
+
+Downloaded d8 from d.o
+
+Ran GUI installer
+
+php.ini: xdebug.max_nesting_level = 256
+
+added to settings.php:
+
+$settings['trusted_host_patterns'] = array(
+  '^drupal8\.dev$',
+);
+
+Created module directory in "modules"
+
+created module.info.yml based on http://cgit.drupalcode.org/sandbox-sidharrell-2466449/tree/hello_world.info.yml?h=8.x-1.x
+
+mkdir src/Plugin/Block
+
+touch src/Plugin/Block/Lego.php
+
+copied basic content from http://mattkorostoff.com/article/programmatically-creating-a-block-in-drupal-8
+
+Cleared cache from UI ("Performance" under Configuration)
+
+Enabled Module from "Extend"
+
+in structure -> blocks in the "Sidebar second" area did "place block", selected my block
+
+https://www.drupal.org/node/1880620 to add configuration
