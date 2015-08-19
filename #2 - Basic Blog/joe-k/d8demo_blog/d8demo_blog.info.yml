@@ -1,0 +1,6 @@
+name: Blog Content Type Module
+description: Creates Blog content type
+package: Custom
+type: module
+version: 1.0
+core: 8.x
