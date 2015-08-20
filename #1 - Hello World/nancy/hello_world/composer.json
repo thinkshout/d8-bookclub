@@ -1,0 +1,6 @@
+{
+  "name": "drupal/hello_world",
+  "description": "This is an example composer.json for hello_world module.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+"
+}

@@ -1,0 +1,7 @@
+heypaxton.yo:
+  path: '/yo/{person}'
+  defaults:
+    _controller: '\Drupal\heypaxton\Controller\HeypaxtonController::yo'
+    _title: 'Heypaxton'
+  requirements:
+    _permission: 'access content'
