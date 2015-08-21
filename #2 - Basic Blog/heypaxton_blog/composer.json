@@ -1,0 +1,14 @@
+{
+  "name": "drupal/heypaxton_blog",
+  "type": "drupal-module",
+  "description": "Simple blog",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/heypaxton_blog",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/heypaxton_blog",
+    "source": "http://cgit.drupalcode.org/heypaxton_blog"
+  },
+  "require": { }
+}

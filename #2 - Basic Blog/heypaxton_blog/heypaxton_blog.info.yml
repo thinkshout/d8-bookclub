@@ -1,0 +1,6 @@
+name: heypaxton_blog
+type: module
+description: Simple blog
+core: 8.x
+package: Custom
+

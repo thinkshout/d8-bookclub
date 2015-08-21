@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Contains heypaxton_blog.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function heypaxton_blog_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the heypaxton_blog module.
+    case 'help.page.heypaxton_blog':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Simple blog') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function heypaxton_blog_theme() {
+  $theme = [];
+
+  return $theme;
+}
