@@ -1,0 +1,11 @@
+uuid: 34a01bea-410c-444e-b509-9a4d31da93c6
+langcode: en
+status: true
+dependencies: {  }
+name: Article
+type: article
+description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,19 @@
+uuid: a0b64716-dfca-4cf4-8800-f3971ae7eb06
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference
+    - node
+id: node.field_auto_tag
+field_name: field_auto_tag
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: entity_reference
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

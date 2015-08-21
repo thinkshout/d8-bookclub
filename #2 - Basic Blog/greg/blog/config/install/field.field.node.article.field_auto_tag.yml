@@ -1,0 +1,28 @@
+uuid: 65eab9ff-7218-4c07-9709-9c952f4a55b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_auto_tag
+    - node.type.article
+  module:
+    - entity_reference
+id: node.article.field_auto_tag
+field_name: field_auto_tag
+entity_type: node
+bundle: article
+label: 'Auto Tag'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+    sort:
+      field: _none
+    auto_create: true
+field_type: entity_reference

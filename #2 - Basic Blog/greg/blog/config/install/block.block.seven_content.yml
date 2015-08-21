@@ -1,0 +1,22 @@
+uuid: 3903f161-0a2b-416f-ab00-f3d046a059e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+id: seven_content
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+visibility: {  }

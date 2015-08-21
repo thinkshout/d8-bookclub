@@ -1,0 +1,11 @@
+uuid: 70b89ac6-4fd7-4db9-a246-7034b14a92ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_delete_action
+label: 'Delete content'
+type: node
+plugin: node_delete_action
+configuration: {  }

@@ -1,0 +1,6 @@
+name: blog
+type: module
+description: A blog
+core: 8.x
+package: Other
+
