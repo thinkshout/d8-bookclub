@@ -1,0 +1,6 @@
+{
+  "name": "drupal/blog",
+  "description": "This is for the blog specific configurations",
+  "type": "drupal-module",
+  "license": "GPL-2.0+"
+}
