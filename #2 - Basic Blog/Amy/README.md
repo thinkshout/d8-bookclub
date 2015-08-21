@@ -2,8 +2,7 @@
 ---
 ## Synopsis
 * The UI for creating the blog and view were very straight forward and similar to how these are created in Drupal 7.
-* The biggest challenge for me was not the exporting of configuration files via `admin/config/development/configuration`, but it was the packaging up of the configuration in a way that Drupal 8 recognized.
-* The top resource was, perhaps, the most helpful
+* The biggest challenge for me was not the exporting of configuration files via `admin/config/development/configuration`, but it was the packaging up of the configuration in a way that Drupal 8 recognized. I was unable to figure this out.
 
 ## Questions: 
 * _Sites own their configuration, not modules. - Alex Pott_  <-- would like to discuss what this means... Isn't configuration stored in modules?
