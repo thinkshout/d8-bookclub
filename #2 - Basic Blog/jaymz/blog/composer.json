@@ -1,0 +1,9 @@
+{
+  "name": "blog",
+  "type": "drupal-module",
+  "description": "Blog",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": { }
+}
