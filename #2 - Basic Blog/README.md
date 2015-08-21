@@ -61,3 +61,5 @@ Export both the content type and view into the configuration of a custom module.
 ### Tauno
 - Used Features! Also installed config update, which gives you reports on what needs updating.
 - Helped determine what to export.
+
+Slide deck covering all the major configuration management topics: http://nuvole.org/sites/default/files/CMI-drupalaton2015.pdf
