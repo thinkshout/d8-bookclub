@@ -1,0 +1,50 @@
+
+# BlogEntity routing definition
+entity.blog.canonical:
+  path: '/admin/blog/{blog}'
+  defaults:
+    _entity_view: 'blog'
+    _title: 'Blog entity'
+  requirements:
+    _entity_access: 'blog.view'
+
+entity.blog.collection:
+  path: '/admin/blog'
+  defaults:
+    _entity_list: 'blog'
+    _title: 'Blog entity list'
+  requirements:
+    _permission: 'view blog entity entities'
+
+entity.blog.add_form:
+  path: '/admin/blog/add'
+  defaults:
+    _entity_form: blog.add
+    _title: 'Add Blog entity'
+  requirements:
+    _entity_create_access: 'blog'
+
+entity.blog.edit_form:
+  path: '/admin/blog/{blog}/edit'
+  defaults:
+    _entity_form: blog.edit
+    _title: 'Edit Blog entity'
+  requirements:
+    _entity_access: 'blog.edit'
+
+entity.blog.delete_form:
+  path: '/admin/blog/{blog}/delete'
+  defaults:
+    _entity_form: blog.delete
+    _title: 'Delete Blog entity'
+  requirements:
+    _entity_access: 'blog.delete'
+
+blog.settings:
+  path: 'admin/structure/blog'
+  defaults:
+   _form: '\Drupal\blog\Entity\Form\BlogEntitySettingsForm'
+   _title: 'Blog entity settings'
+  requirements:
+    _permission: 'administer blog entity entities'
+

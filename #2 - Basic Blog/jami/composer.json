@@ -1,0 +1,6 @@
+{
+  "name": "drupal/blog",
+  "description": "Content type, view, and context to create teaser view at /blog.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+"
+}
