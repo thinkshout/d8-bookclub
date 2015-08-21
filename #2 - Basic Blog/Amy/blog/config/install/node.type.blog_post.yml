@@ -1,0 +1,18 @@
+#uuid: 549560f6-f909-4042-8601-1a48d15e2437
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Blog Post'
+type: blog_post
+description: 'Blog content type containing epic stories and other news.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

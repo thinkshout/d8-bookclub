@@ -1,0 +1,6 @@
+name: Blog
+type: module
+description: Entity content module
+core: 8.x
+package: Other
+

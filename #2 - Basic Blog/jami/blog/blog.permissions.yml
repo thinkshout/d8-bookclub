@@ -1,0 +1,15 @@
+add blog entity entities:
+  title: 'Create new Blog entity entities'
+
+administer blog entity entities:
+  title: 'Administer Blog entity entities'
+  description: 'Allow to access the administration form to configure Blog entity entities.'
+
+delete blog entity entities:
+  title: 'Delete Blog entity entities'
+
+edit blog entity entities:
+  title: 'Edit Blog entity entities'
+
+view blog entity entities:
+  title: 'View Blog entity entities'
