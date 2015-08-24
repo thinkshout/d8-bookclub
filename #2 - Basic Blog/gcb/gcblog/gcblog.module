@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * @file
+ * Contains gcblog.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Entity\EntityInterface;
+//use Drupal\Core\Entity\EntityDisplayInterface;
+
+/**
+ * Implements hook_help().
+ */
+function gcblog_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the gcblog module.
+    case 'help.page.gcblog':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A Blog by GCB') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function gcblog_theme() {
+  $theme = [];
+
+  return $theme;
+}
+
+///**
+// * Implements hook_node_view().
+// */
+//function gcblog_node_view(EntityInterface $node, EntityDisplay $display, $view_mode) {
+//  $a=1;
+//}

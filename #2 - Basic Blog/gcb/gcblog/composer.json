@@ -1,0 +1,14 @@
+{
+  "name": "drupal/gcblog",
+  "type": "drupal-module",
+  "description": "A Blog by GCB",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/gcblog",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/gcblog",
+    "source": "http://cgit.drupalcode.org/gcblog"
+  },
+  "require": { }
+}

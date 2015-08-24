@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gcblog_weblog.body
+    - field.field.node.gcblog_weblog.field_author
+    - node.type.gcblog_weblog
+  module:
+    - text
+    - user
+id: node.gcblog_weblog.default
+targetEntityType: node
+bundle: gcblog_weblog
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_author:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

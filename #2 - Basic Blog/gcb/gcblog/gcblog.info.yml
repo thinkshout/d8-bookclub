@@ -1,0 +1,6 @@
+name: gcblog
+type: module
+description: A Blog by GCB
+core: 8.x
+package: Custom
+
