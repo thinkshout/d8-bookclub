@@ -1,0 +1,6 @@
+name: Spartika
+type: theme
+description: 'Spartan improvements to Bartik.'
+package: Custom
+core: 8.x
+base theme: bartik
