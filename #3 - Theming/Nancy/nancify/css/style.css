@@ -1,0 +1,36 @@
+body {
+    background-color: ivory;
+}
+
+
+body.node--type-blog {
+    background-color: pink;
+}
+
+.layout-container {
+    margin: 20px;
+}
+
+#block-nancify-footer .menu {
+    float: right;
+}
+
+#block-nancify-main-menu .menu li {
+    display: inline-block;
+}
+
+header img {
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.node--type-blog .placeholder {
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.messages {
+    border: 0;
+}
