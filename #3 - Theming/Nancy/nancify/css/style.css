@@ -11,8 +11,28 @@ body.node--type-blog {
     margin: 20px;
 }
 
-.layout-content {
-    clear: both;
+
+.region-content {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.layout-sidebar-first {
+    width: 25%;
+    margin-left: -100%;
+    float: left;
+    position: relative;
+}
+
+.layout-sidebar-second {
+    width: 25%;
+    margin-left: -25%;
+    clear: none;
+    float: left;
+    position: relative;
 }
 
 #block-nancify-footer .menu,
