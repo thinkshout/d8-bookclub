@@ -1,16 +1,24 @@
 body {
-    background-color: ivory;
+    background-color: #efefef;
 }
 
 
 body.node--type-blog {
-    background-color: pink;
+    background-color: #afd9ee;
 }
 
 .layout-container {
-    margin: 20px;
+    margin: 0;
 }
 
+header {
+    padding: 20px 20px 0 20px ;
+    background-color: #cccccc;
+}
+
+main {
+    padding: 0 20px 20px 20px;
+}
 
 .region-content {
     margin-left: 25%;
