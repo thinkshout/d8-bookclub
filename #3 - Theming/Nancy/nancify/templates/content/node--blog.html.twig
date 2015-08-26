@@ -76,7 +76,6 @@ view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
 ]
 %}
 <article{{ attributes.addClass(classes) }}>
-    {{ dump() }}
     {{ title_prefix }}
     {% if not page %}
         <h2{{ title_attributes }}>
@@ -84,8 +83,11 @@ view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
         </h2>
     {% endif %}
     {{ title_suffix }}
-    {% if node--view-mode-full == 1 %}
+
+    {% if view_mode == 'full' %}
         <img src="https://placeimg.com/200/200/animals" class="placeholder">
+    {% elseif view_mode == 'teaser' %}
+        <img src="https://placeimg.com/75/75/animals" class="placeholder">
     {% endif %}
 
     {% if display_submitted %}

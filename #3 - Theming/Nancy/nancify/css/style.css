@@ -11,11 +11,17 @@ body.node--type-blog {
     margin: 20px;
 }
 
-#block-nancify-footer .menu {
+.layout-content {
+    clear: both;
+}
+
+#block-nancify-footer .menu,
+#block-nancify-account-menu .menu{
     float: right;
 }
 
-#block-nancify-main-menu .menu li {
+#block-nancify-main-menu .menu li,
+#block-nancify-account-menu .menu li {
     display: inline-block;
 }
 
