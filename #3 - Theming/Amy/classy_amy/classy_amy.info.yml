@@ -1,0 +1,16 @@
+name: Classy Amy
+type: theme
+base theme: classy
+description: 'A classy theme for a classy woman.'
+package: Custom
+core: 8.x
+libraries:
+  - classy_amy/global-styling
+stylesheets-remove:
+  - '@classy/css/layout.css'
+  - core/assets/vendor/normalize-css/normalize.css
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
