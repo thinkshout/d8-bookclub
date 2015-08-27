@@ -9,4 +9,4 @@ Started here: https://www.drupal.org/theme-guide/8
 - Set my sub-theme as site default.
 - Added a `d8demo.theme` file to allow the use of preprocesser functions.
 - Added a template to override the 'blog' content type, field 'author': `field--node--field-author--blog.html.twig`
-- Updated the item uptput to have a key in the for loop, whick I output to the screen
+- Updated the item output to have a key in the for loop, which I output to the screen
