@@ -1,0 +1,9 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/d8demo.css: {}
+  js:
+    js/d8demo.js: {}
+  dependencies:
+    - core/jquery
