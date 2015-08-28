@@ -1,0 +1,16 @@
+name: Blog Theme
+type: theme
+description: Blog Theme
+package: Other
+core: 8.x
+libraries:
+  - blog_theme/global-styling
+
+base theme: classy
+#Using Classy as a base theme https://www.drupal.org/theme-guide/8/classy
+
+regions:
+  content: Content
+  header: Header
+  footer: Footer
+  sidebar: Sidebar
