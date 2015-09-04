@@ -14,7 +14,7 @@ This will show you the UUID for your site, which you can then sync with an edito
 
 I therefore took the UUID from my live site, and replaced my dev site UUID. You can then import the live config using the interface:
 
-```http://d8demo-dev.dev/admin/config/development/configuration/full/import```
+```/admin/config/development/configuration/full/import```
 
 Full sync fails however, due to mismatched entities.
 
