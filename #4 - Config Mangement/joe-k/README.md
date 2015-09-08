@@ -30,7 +30,9 @@ I have confirmed that this method works with git-based site installs as well. Ma
 
 The following should be added to your `.git/info/exclude`:
 
-```web/sites/default/files/php/twig/*
+```
+web/sites/default/files/php/twig/*
 web/sites/default/files/css/css_*
 web/sites/default/files/js/js_*
-web/sites/default/settings.php```
+web/sites/default/settings.php
+```
