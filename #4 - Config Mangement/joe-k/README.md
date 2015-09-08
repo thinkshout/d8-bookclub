@@ -1,4 +1,4 @@
-For my demo, I used my composer-based installer to build out seperate d8demo-live and d8demo-dev sites.
+For my demo, I used my composer-based installer to build out separate d8demo-live and d8demo-dev sites.
 
 I then did full exports of the base site configs: `/admin/config/development/configuration/full/export`
 and immediately imported them again.
@@ -20,7 +20,7 @@ This can be circumvented by using a command to explicitly sync updates and new c
 
 ```drush config-import staging --partial```
 
-Important Note: You MUST start with a base install sync, otherwise you will always have entity mistmatch issues, even with the partial import.
+Important Note: You MUST start with a base install sync, otherwise you will always have entity mismatch issues, even with the partial import.
 
 At this point, your local dev site and live sites can exchange site configs, and will only reflect changes.
 
