@@ -1,0 +1,11 @@
+name: Sketchbook
+type: theme
+description: Sketchbook Theme
+package: Other
+core: 8.x
+libraries:
+  - sketchbook/global-css
+
+regions:
+  right: Right
+  left: Left

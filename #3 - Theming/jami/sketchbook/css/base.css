@@ -1,0 +1,270 @@
+@font-face {
+    font-family: HelloHaywire;
+    src: url('HelloHaywire.ttf');
+}
+@font-face {
+    font-family: Chivo;
+    src: url('Chivo-Regular.ttf')
+}
+html, main {
+    height: 100%;
+}
+body {
+    background-image:url('nortago.jpg');
+    color: #24231f;
+    font-family: 'Chivo', sans-serif;
+    font-size: 100%;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+p {
+    margin-bottom: 10px;
+}
+a {
+    color: rgba(108, 40, 37, 1);
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(170, 18, 5, 1);
+}
+address, button, caption, cite, code, dfn, em, input, optgroup, option, select, strong, textarea, th, var {
+    border-radius: 2px;
+    border: 2px solid #a9a9aa;
+    margin: 5px auto;
+    text-align: center;
+    width: 99%;
+}
+ul {
+    width: 100%;
+}
+.region-left li {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-style: solid;
+    border-width: 39px 34px 39px 34px;
+    -moz-border-image: url(brdr.png) 27 32 stretch;
+    -webkit-border-image: url(brdr.png) 27 32 stretch;
+    -o-border-image: url(brdr.png) 27 32 stretch;
+    border-image: url(brdr.png) 27 32 stretch;
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+    right: -6px;
+    position: relative;
+    line-height: 26px;
+    margin: 1.5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: center;
+    vertical-align: middle;
+    width: 32%;
+}
+select {
+    max-width: 80%;
+}
+option {
+    border-radius: 0px;
+    border: none;
+    margin: 0 auto;
+}
+input[type="submit"] {
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+textarea {
+    margin: 0 auto;
+    width:100%;
+}
+form {
+    margin: 0 auto;
+    width: 55%;
+}
+.region {
+    background-color: #fafafa;
+}
+.layout-container, .layout-content {
+    height: 100%;
+}
+.region-left, .region-right {
+    display: inline-block;
+    height: 80%;
+    vertical-align: top;
+    width: 49%;
+}
+#existing, #new, #paste, #pinterest, #goodreads, #rankButton, #pinterestButton, #goodreadsButton {
+    display: none;
+}
+#existing.shared {
+    display: inline-block;
+}
+.rank {
+    cursor: pointer;
+    font-size: 1.5em;
+    opacity: 0;
+    word-wrap: break-word;
+}
+.button {
+    background-color: #24231f;
+    color: #f7f6f0;
+    padding: 5px 3px 5px 3px;
+    text-transform: uppercase;
+}
+.column {
+    background-color: #fafafa;
+    border: 1px solid #c4c3a5;
+    display: inline-block;
+    height: 93%;
+    padding: 1.5%;
+    vertical-align: top;
+    width: 46%;
+    min-width: 240px;
+}
+.item-list li .delete-item {
+    position: absolute;
+    top: 0;
+    width: 20px;
+    right: 0;
+}
+#book {
+    height: 99%;
+    margin: 0 auto;
+    width: 100%;
+}
+.region-left {
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-box-shadow:    inset 0 0 10px #afa081;
+    -webkit-box-shadow: inset -3px -2px 10px #afa081;
+    box-shadow: inset -3px -2px 10px #afa081;
+}
+.region-right {
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    background-image:url('star.png');
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-box-shadow:    inset 0 0 10px #afa081;
+    -webkit-box-shadow: inset 3px 2px 10px #afa081;
+    box-shadow:         inset 3px 2px 10px #afa081;
+}
+#listid {
+    display: inline-block;
+    font-family: 'HelloHaywire';
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+}
+#userInfo {
+    border-radius: 2px;
+    position:relative;
+    text-align:right;
+    background-color: rgba(247, 246, 240, 0.9);
+    padding: 7px;
+    position: absolute;
+    right: 3%;
+    text-align: right;
+}
+.rightContent {
+    height: 100%;
+}
+.region-right .item-list > ul, .region-right .contextual-region {
+    background-color: rgba(247, 246, 240, 0.9);
+    border-radius: 2px;
+    display: inline-block;
+    height: 80%;
+    overflow: auto;
+    position: relative;
+    top: 20px;
+.    border-style: solid;
+.    border-width: 39px 34px 39px 34px;
+.    border-image: url(../brdr.png) 27 32 stretch;
+    width: 98%;
+}
+.region-left .contextual-region {
+    overflow: auto;
+    height: 80%;
+}
+.item-list ul li {
+    background-color: transparent;
+}
+.item-list > li {
+    border: none;
+    display: inline-block;
+    float: none;
+    height: auto;
+    margin-bottom: 8px;
+    max-height: 100px;
+    overflow: hidden;
+    padding-top: 0;
+    text-align: left;
+    vertical-align: top;
+    width: 90%;
+}
+.item-list > li img {
+    float: left;
+    margin-right: 8px;
+    width: 70px;
+}
+.item-list > li a {
+    vertical-align: top;
+}
+.item-list li span {
+    display: inline;
+    float: left;
+}
+.listList {
+    display: inline;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+.text {
+    font-size: 0.6em;
+}
+#tooltip {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: #333;
+    padding: 5px;
+    display: none;
+    color: #fff;
+    z-index: 10;
+}
+sup {
+    vertical-align: top;
+    font-size: 0.75em;
+}
+@media (max-width: 970px) {
+    .column {
+        display: block;
+        width: 96.7%;
+    }
+    #listid {
+        font-size: 1em;
+    }
+    .region-left, .region-right {
+        border-radius: 0px;
+    }
+}
+h1, h2, h3, p {
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.6em;
+}
+h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
